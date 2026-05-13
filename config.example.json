@@ -1,0 +1,59 @@
+{
+  "trustedModeratorIds": [
+    "YOUR_DISCORD_USER_ID"
+  ],
+  "protectedUserIds": [
+    "USER_ID_THE_BOT_MUST_NEVER_MODERATE"
+  ],
+  "personalityToggleUserIds": [
+    "USER_ID_ALLOWED_TO_TOGGLE_PERSONALITY"
+  ],
+  "songPlayerUserIds": [
+    "USER_ID_ALLOWED_TO_USE_SVC"
+  ],
+  "rollRoleIds": {
+    "gold": "GOLD_ROLE_ID",
+    "fire": "FIRE_ROLE_ID",
+    "silver": "SILVER_ROLE_ID",
+    "water": "WATER_ROLE_ID",
+    "green": "GREEN_ROLE_ID",
+    "red": "RED_ROLE_ID"
+  },
+  "chat": {
+    "enabled": true,
+    "respondInDms": true,
+    "respondWhenMentioned": true,
+    "respondWhenRepliedTo": true,
+    "allowedChannelIds": [],
+    "defaultPersonality": "classic",
+    "systemPrompt": "You are SeemsImBot, a friendly Discord bot. Talk like a real person: casual, helpful, funny when it fits, and never pretend to have powers you do not have.",
+    "personalityPrompts": {
+      "classic": "You are SeemsImBot, a friendly Discord bot. Talk like a real person: casual, helpful, funny when it fits, and never pretend to have powers you do not have.",
+      "useful": "You are SeemsImBot. Be useful, clear, and direct. Answer with practical steps or the exact information needed. Keep replies concise, but include enough detail to solve the problem."
+    }
+  },
+  "moderation": {
+    "defaultMuteMinutes": 30,
+    "dmTemplates": {
+      "ban": "You have been banned by {server} for {reason}.",
+      "kick": "You have been kicked from {server} for {reason}.",
+      "mute": "You have been muted in {server} for {reason}."
+    }
+  },
+  "sinfoFacts": [
+    "Honey never spoils.",
+    "Octopuses have three hearts.",
+    "Bananas are berries, but strawberries are not.",
+    "A group of flamingos is called a flamboyance.",
+    "The Eiffel Tower can grow taller in hot weather."
+  ],
+  "roast": {
+    "prompt": "Write one playful, non-hateful Discord roast for {target}. Keep it short, silly, and not genuinely cruel.",
+    "fallbacks": [
+      "{target}, you have the energy of a loading screen stuck at 99%.",
+      "{target}, your Wi-Fi password probably gives up before connecting.",
+      "{target}, you are proof that Ctrl+Z should work in conversations.",
+      "{target}, your aura has low battery mode enabled."
+    ]
+  }
+}

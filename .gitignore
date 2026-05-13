@@ -1,0 +1,6 @@
+node_modules/
+.env
+config.json
+npm-debug.log*
+.npm-cache/
+*-player-script.js
